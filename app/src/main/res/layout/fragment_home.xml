@@ -346,7 +346,7 @@
                         android:layout_height="120dp"
                         android:padding="10dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/pr_1" />
+                        android:src="@drawable/vase2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -380,7 +380,7 @@
                         android:layout_height="120dp"
                         android:padding="10dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/pr_2" />
+                        android:src="@drawable/planter4" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -414,7 +414,7 @@
                         android:layout_height="120dp"
                         android:padding="10dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/pr_3" />
+                        android:src="@drawable/wall2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -448,7 +448,7 @@
                         android:layout_height="120dp"
                         android:padding="10dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/pr_4" />
+                        android:src="@drawable/cup4" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -482,7 +482,7 @@
                         android:layout_height="120dp"
                         android:padding="10dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/pr_5" />
+                        android:src="@drawable/vase4" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -516,7 +516,7 @@
                         android:layout_height="120dp"
                         android:padding="10dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/pr_6" />
+                        android:src="@drawable/wall5" />
 
                     <TextView
                         android:layout_width="wrap_content"
