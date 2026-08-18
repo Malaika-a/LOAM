@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".navigationActivity2"
+    android:background="#F2E4D3">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="690dp"
+        android:id="@+id/first_container">
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="4">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/home"
+    android:layout_marginStart="30dp">
+    <ImageView
+        android:id="@+id/imageView_home"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ic_home" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="-5dp"/>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/shop"
+            android:layout_marginStart="40dp">
+            <ImageView
+                android:id="@+id/imageView_shop"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_shop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shop"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="-5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/cart"
+            android:layout_marginStart="40dp">
+            <ImageView
+                android:id="@+id/imageView_cart"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_cart" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cart"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="-5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/profile"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="30dp">
+            <ImageView
+                android:id="@+id/imageView_profile"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_profile" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="-5dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
