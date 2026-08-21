@@ -10,7 +10,7 @@
     android:background="#F2E4D3">
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="690dp"
+        android:layout_height="750dp"
         android:id="@+id/first_container">
 
     </FrameLayout>

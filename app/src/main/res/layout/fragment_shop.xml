@@ -13,27 +13,38 @@
         android:background="#F2E4D3"
         >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:id="@+id/text1"
-            android:text="Shop"
-            android:textColor="@color/black"
-            android:textSize="30sp"
+        <Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:title="@string/shop"
+            android:titleTextColor="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="10dp"-->
+<!--            android:id="@+id/text1"-->
+<!--            android:text="Shop"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
         <TextView
+            android:id="@+id/text2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/text2"
             android:paddingStart="10dp"
-            android:text="Vases/Decor vessels"
+            android:text="@string/vases_decor_vessels"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            app:layout_constraintTop_toBottomOf="@+id/text1"/>
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
         <HorizontalScrollView
             android:id="@+id/horizontalScrollView"
@@ -77,7 +88,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Floral Vase"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -85,7 +96,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.500"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -109,7 +120,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text=" 3d Butterfly Vase"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -117,7 +128,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.1000"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -141,7 +152,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="signature Vase"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -149,7 +160,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.900"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -157,156 +168,27 @@
 
 
         </HorizontalScrollView>
+
+
         <TextView
+            android:id="@+id/text3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/text3"
             android:paddingStart="10dp"
             android:text="Mugs &amp; Cups"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            app:layout_constraintTop_toBottomOf="@id/horizontalScrollView"/>
-        <HorizontalScrollView
-            android:id="@+id/horizontalScrollView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:scrollbars="none"
-            app:layout_constraintTop_toBottomOf="@+id/text3"
+            android:textSize="15sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/text4"
-            >
+            app:layout_constraintTop_toBottomOf="@id/horizontalScrollView" />
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:clipToOutline="true"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingTop="16dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                >
-
-                <LinearLayout
-                    android:layout_width="160dp"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/bg"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp"
-                    >
-
-                    <ImageView
-                        android:id="@+id/imageView8"
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:padding="10dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/pr_1" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="7dp"
-                        android:padding="5dp"
-                        android:text="Rs.300"
-                        android:textColor="@color/black" />
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="160dp"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/bg"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp">
-
-                    <ImageView
-                        android:id="@+id/imageView9"
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:padding="10dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/pr_1" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="7dp"
-                        android:padding="5dp"
-                        android:text="Rs.300"
-                        android:textColor="@color/black" />
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="160dp"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/bg"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp">
-
-                    <ImageView
-                        android:id="@+id/imageView10"
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:padding="10dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/pr_1" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="7dp"
-                        android:padding="5dp"
-                        android:text="Rs.300"
-                        android:textColor="@color/black" />
-
-                </LinearLayout>
-            </LinearLayout>
-
-
-        </HorizontalScrollView>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/text4"
-            android:paddingStart="10dp"
-            android:text="Planters"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            app:layout_constraintTop_toBottomOf="@id/horizontalScrollView1"/>
         <HorizontalScrollView
             android:id="@+id/horizontalScrollView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollbars="none"
-            app:layout_constraintTop_toBottomOf="@+id/text3"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            >
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text3">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -314,18 +196,16 @@
                 android:clipToOutline="true"
                 android:orientation="horizontal"
                 android:paddingStart="8dp"
-                android:paddingTop="16dp"
+                android:paddingTop="4dp"
                 android:paddingEnd="16dp"
-                android:paddingBottom="16dp"
-                >
+                android:paddingBottom="16dp">
 
                 <LinearLayout
                     android:layout_width="160dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg"
-                    android:orientation="vertical"
                     android:layout_marginStart="8dp"
-                    >
+                    android:background="@drawable/bg"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imageView11"
@@ -340,7 +220,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Lavender Floral Cup"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -348,16 +228,17 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.500"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="160dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
                     android:background="@drawable/bg"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp">
+                    android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imageView12"
@@ -372,7 +253,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="3d ROSE Cup"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -380,16 +261,17 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.700"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="160dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
                     android:background="@drawable/bg"
-                    android:orientation="vertical"
-                    android:layout_marginStart="8dp">
+                    android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imageView13"
@@ -404,7 +286,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Tea mug &amp; holder"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -412,7 +294,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.900"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -420,6 +302,18 @@
 
 
         </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:text="Planters"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/horizontalScrollView2" />
 
         <HorizontalScrollView
             android:id="@+id/horizontalScrollView3"
@@ -462,7 +356,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Bag Planter"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -494,7 +388,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Potli Planter"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -502,7 +396,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.900"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -526,7 +420,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Vase Planter"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -534,7 +428,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.1000"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -549,7 +443,7 @@
             android:paddingStart="10dp"
             android:text="Dinnerware"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="15sp"
             app:layout_constraintTop_toBottomOf="@id/horizontalScrollView3"/>
         <HorizontalScrollView
             android:id="@+id/horizontalScrollView4"
@@ -679,7 +573,7 @@
             android:paddingStart="10dp"
             android:text="Wall Hangings"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="15sp"
             app:layout_constraintTop_toBottomOf="@id/horizontalScrollView4"/>
         <HorizontalScrollView
             android:id="@+id/horizontalScrollView5"
@@ -810,7 +704,7 @@
             android:paddingStart="10dp"
             android:text="Trays &amp; Platters"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="15sp"
             app:layout_constraintTop_toBottomOf="@id/horizontalScrollView5"/>
         <HorizontalScrollView
             android:id="@+id/horizontalScrollView6"
