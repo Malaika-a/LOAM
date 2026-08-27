@@ -486,7 +486,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Cuttlery &amp;Dinner set"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -494,7 +494,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.2000"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -518,7 +518,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Aesthetic Crokery"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -526,7 +526,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.1000"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -550,7 +550,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Emrald Dinnerware"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -558,7 +558,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.4000"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -617,7 +617,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Name Plate"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -625,7 +625,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.999"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -649,7 +649,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="key holder"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -657,7 +657,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.590"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -681,7 +681,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="3D Design Mirror"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -689,7 +689,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.890"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -747,7 +747,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Food Tray 3pcs"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -755,7 +755,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.2500"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -779,7 +779,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Curvy Platter"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -787,7 +787,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.2000"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -811,7 +811,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Fruit Platter"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -819,7 +819,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.1999"
                         android:textColor="@color/black" />
 
                 </LinearLayout>

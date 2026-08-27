@@ -21,6 +21,7 @@
         android:layout_width="350dp"
         android:layout_height="500dp"
         android:alpha="0.55"
+
         app:cardCornerRadius="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/loam_sign_in"
         app:layout_constraintEnd_toEndOf="parent"

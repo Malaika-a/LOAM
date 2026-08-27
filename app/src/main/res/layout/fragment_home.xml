@@ -139,7 +139,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Riffle dish jewllery bowl"
+                        android:text="Riffle dish jewellery bowl"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -173,7 +173,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Rose Soap Holder"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -207,7 +207,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="3D Design Cup"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -215,7 +215,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.750"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -241,7 +241,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Cup Placer"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -249,7 +249,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.500"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -275,7 +275,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Tree Jewellery Holder"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -283,7 +283,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.1200"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -355,7 +355,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Minimalistic Vase"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -363,7 +363,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.500"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -389,7 +389,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Riffle dish jewllery bowl"
+                        android:text="Potli PLanter"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -423,7 +423,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Nameplate Hanging"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -457,7 +457,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Icecream design Cups"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -465,7 +465,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.600"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -491,7 +491,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="3D Black Vase"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -499,7 +499,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.1000"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
@@ -525,7 +525,7 @@
                         android:layout_height="20dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="6dp"
-                        android:text="Ridge Bowl"
+                        android:text="Wall Hangings"
                         android:textColor="@color/black" />
 
                     <TextView
@@ -533,7 +533,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
                         android:padding="5dp"
-                        android:text="Rs.300"
+                        android:text="Rs.1200"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
