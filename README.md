@@ -8,6 +8,7 @@ A native Android pottery marketplace app — browse and shop handmade ceramic pi
 ![Kotlin](https://img.shields.io/badge/Kotlin-C24E2A?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-1E5B4F?style=for-the-badge&logo=androidstudio&logoColor=white)
 ![XML](https://img.shields.io/badge/XML%20Layouts-C9962C?style=for-the-badge&logo=xml&logoColor=white)
+![Navigation Component](https://img.shields.io/badge/Jetpack%20Navigation-8C2F4B?style=for-the-badge&logo=android&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Development-8C2F4B?style=for-the-badge)
 
 </div>
@@ -76,24 +77,26 @@ Quantity steppers, subtotal/delivery/total, checkout — plus a profile hub for 
 | Layer | Choice |
 |---|---|
 | Language | Kotlin |
-| UI | XML layouts (LinearLayout / RelativeLayout / ConstraintLayout) |
+| UI | XML layouts (LinearLayout / ConstraintLayout) |
 | IDE | Android Studio |
-| Navigation | Custom nav screen — FrameLayout + tab row, manual view switching (no Fragment API) |
+| Navigation | Jetpack **Navigation Component** — `NavHostFragment` + `nav_graph.xml`, driving a Material **BottomNavigationView** |
 
 ## 📁 Project Structure
 
 ```
 app/
-├── SplashActivity / onboarding
-├── SignUpActivity
-├── SignInActivity
-├── NavigationActivity2        # hosts bottom nav + manual screen switching
-│   ├── HomeView
-│   ├── ShopView
-│   ├── CartView
-│   └── ProfileView
+├── MainActivity                # splash
+├── signup / sign_in            # auth screens
+├── navigationActivity2         # hosts NavHostFragment + BottomNavigationView
+│   └── nav_graph.xml           # destinations: Home, Shop, Cart, Profile
+│       ├── HomeFragment
+│       ├── ShopFragment
+│       ├── CartFragment
+│       └── ProfileFragment
 └── res/
     ├── layout/
+    ├── navigation/
+    ├── menu/                   # bottom_nav_menu.xml
     ├── drawable/
     └── values/
 ```
@@ -110,7 +113,10 @@ app/
 
 ## 🗺️ Roadmap
 
+- [x] Replace manual FrameLayout tab-switching with Jetpack Navigation Component
+- [x] Swap custom tab row for Material `BottomNavigationView`
 - [ ] Wire up `RecyclerView` for reusable product data across Home and Shop
+- [ ] Add a toolbar options menu (overflow: Settings / Logout / About)
 - [ ] Connect Cart quantity/remove actions to real state
 - [ ] Hook up Profile sub-pages (Orders, Saved Items, Shipping, Payment, Settings)
 - [ ] Backend/data layer integration
