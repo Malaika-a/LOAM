@@ -23,6 +23,9 @@
     android:layout_height="wrap_content"
     android:id="@+id/bottom_nav"
     app:menu="@menu/bottomnav"
+    android:background="#F2E4D3"
+    app:elevation="8dp"
+    app:itemIconTint="@null"
     app:labelVisibilityMode="labeled"/>
 
 </LinearLayout>

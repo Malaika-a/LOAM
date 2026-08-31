@@ -21,6 +21,7 @@
         android:layout_width="350dp"
         android:layout_height="550dp"
         android:alpha="0.55"
+        style="@style/MyMaterialCard"
         app:cardCornerRadius="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/loam"
         app:layout_constraintEnd_toEndOf="parent"

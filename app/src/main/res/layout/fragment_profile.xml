@@ -271,9 +271,11 @@
     </LinearLayout>
     </LinearLayout>
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bttn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Log out"
+            style="@style/appcompatbtn"
             android:layout_marginHorizontal="16dp"
 
             android:background="@drawable/btn_2"/>
